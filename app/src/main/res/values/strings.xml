@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LasgidiTour_Guide</string>
+    <string name="best_hotels">Best Hotels</string>
+    <string name="tourist_sites">Tourist Sites</string>
+    <string name="about_lag">About Lagos</string>
+
+    <string name="bar_title">Lasgidi Tour Guide</string>
+
+    <string name="eko_hotel">Eko Hotel</string>
+    <string name="about_eko_hotel">The Most Preferred Hotel in West Africa Eko Hotels and Suites is the most preferred hotel in West Africa,
+        and it is all about the right mix! Located in the heart of Victoria Island we offer our clients a perfect blend of business and
+        leisure amenities with dining and recreational options delicately infused in one amazing space. We crown all these with services that
+        meet the highest international standards.
+        Overlooking the new Eko Atlantic City and Atlantic Ocean, it is just a 10-minute drive to the City Centre and only 45minutes away
+        from the Airport.
+        Our hotels are designed for your comfort and convenience. Your security is our primary concern and you will find our customer care
+        second to none.</string>
+
+
+    <string name="oriental_hotel">Oriental Hotel</string>
+    <string name="about_oriental_hotel">Lagos Oriental Hotel is a 5-Star luxury hotel situated in-between the Lekki and Victoria Island areas of Lagos.
+        Located at 3, Lekki Road, Victoria Island, the Lagos Oriental Hotel is within proximity of numerous business and tourist attractions.
+        The Nike Art Gallery is 10 minutes away; it’s an excellent spot for international guests. When entering the Lagos Oriental Hotel, you feel
+        an atmosphere inspired by a dynamic modernity. All facilities, from the Chinese Restaurant, the Japanese Gourmet Restaurant, the Lobby
+        Lounge and Bar’s and the Grand Ballroom to the guest rooms and suites, meet the most exacting demands for comfort and service. Hospitality
+        in the best Lagos Oriental Hotel tradition has been reborn.</string>
+
+    <string name="de_rembrandt_hotel">De Rembrandt Hotel</string>
+    <string name="about_de_rembrandt_hotel">De Rembrandt Hotel and Suites is a 4 star luxury hotel located in the heart of Ikeja, Lagos.
+        The hotel is two blocks from the Ikeja City Mall, Shoprite,the governor’s office and a lot of other prominent attractions.
+        The fifty rooms, six floors hotel is a magnificent edifice just on the busy Awolowo road. The property is twenty minutes away from the
+        popular Computer Village market, thirty minutes away from the the local airport, and 35 minutes away from the international airport.
+        The strategic location of our hotel gives you easy access to many companies in Ikeja.</string>
+
+    <string name="ibis_hotel">Ibis Hotel</string>
+    <string name="about_ibis_hotel">Hotel Ibis is a luxury hotel located at 23 Toyin Street, Ikeja, Lagos, Nigeria. Hotel Ibis is 8.40 km,
+        approximately 10 minutes, from the Murtala Mohammed Airport (MMA). Hotel Ibis has 165 well-furnished and air-conditioned Standard rooms;
+        free Wi-Fi available in each. The rooms have sweet Ibis bedding, a coffee machine, an LCD screen TV, en-suite bathrooms and full-length
+        windows. Each bathroom has a shower and a hair dryer. The exquisite parquet flooring definitely assures you of sweet steps of comfort,
+        making you as relaxed as possible.</string>
+
+    <string name="rollace_hotel">Rollace Hotel</string>
+    <string name="about_rollace_hotel">Stay at one of Lagos’ most beautiful hotels: Rollace Hotel Ajao Estate. You will undoubtedly love the
+        well-preserved, original charm of our hotel. Your stay at Rollace Hotel with our personal, welcoming service, modern hotel facilities
+        and family-friendly hotel will be an unforgettable experience. A delicious breakfast, friendly front desk assistance and a great night’s
+        rest in an impeccably clean room: At Rollace Hotel Lagos, our staffs are always on hand to help with a smile to make your stay perfect down
+        to the last detail. We welcome you to stay at Rollace Hotel Lagos and experience our unsurpassed service and warm, homely atmosphere for yourself. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

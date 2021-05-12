@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:foregroundGravity="center_vertical"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:layout_below="@+id/image">
+
+        <TextView
+            android:id="@+id/tour_category_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Eko Hotel" />
+
+        <TextView
+            android:id="@+id/tour_category_text_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="dtrfdfxgfhufdxcfijzdfsxcgcgfijgfrchyjkdf
+            fcgvhdfxcgbhjgfcbhjkcgfbhjkcgfbhjkcgfbhjcgfhbj vbnghjb
+            cgfbhjkcfbhjkgfhj kgfhjkbhjkhjbkghjxcghjcgfhjdfxcghjdfxcg" />
+    </LinearLayout>
+
+</RelativeLayout>
