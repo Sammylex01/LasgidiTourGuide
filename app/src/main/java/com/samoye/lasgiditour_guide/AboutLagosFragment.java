@@ -14,15 +14,13 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link AboutLagosFragment#newInstance} factory method to
- * create an instance of this fragment.
+ *
  */
 public class AboutLagosFragment extends Fragment {
 
     public AboutLagosFragment() {
         // Required empty public constructor
     }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,15 +35,12 @@ public class AboutLagosFragment extends Fragment {
         // Create a list of tours
         final ArrayList<TourCategory> tourCategories = new ArrayList<TourCategory>();
 
-        tourCategories.add(new TourCategory(getString(R.string.eko_hotel), getString(R.string.about_eko_hotel),  R.drawable.ic_eko_hotel));
-        tourCategories.add(new TourCategory(getString(R.string.oriental_hotel), getString(R.string.about_oriental_hotel), R.drawable.ic_oriental_hotel));
-        tourCategories.add(new TourCategory(getString(R.string.de_rembrandt_hotel), getString(R.string.about_de_rembrandt_hotel), R.drawable.ic_de_rembrandt_hotels));
-        tourCategories.add(new TourCategory(getString(R.string.ibis_hotel), getString(R.string.about_ibis_hotel), R.drawable.ic_ibis_hotel));
-        tourCategories.add(new TourCategory(getString(R.string.rollace_hotel), getString(R.string.about_rollace_hotel), R.drawable.ic_rollace_hotels));
+        tourCategories.add(new TourCategory(getString(R.string.lagos), getString(R.string.about_lagos),  R.drawable.ic_map_of_lagos));
+        tourCategories.add(new TourCategory(getString(R.string.lagos_climate), getString(R.string.about_lagos_climate), R.drawable.ic_lagos));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        TourAdapter adapter = new TourAdapter(getActivity(), tourCategories, R.color.tour_category_hotel);
+        TourAdapter adapter = new TourAdapter(getActivity(), tourCategories, R.color.tour_category_about_lagos);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

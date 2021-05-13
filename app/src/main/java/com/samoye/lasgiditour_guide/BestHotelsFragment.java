@@ -36,7 +36,7 @@ public class BestHotelsFragment extends Fragment {
         // Create a list of tours
         final ArrayList<TourCategory> tourCategories = new ArrayList<TourCategory>();
 
-        tourCategories.add(new TourCategory(getString(R.string.eko_hotel), getString(R.string.about_eko_hotel),  R.drawable.ic_eko_hotel));
+        tourCategories.add(new TourCategory(getString(R.string.eko_hotel), getString(R.string.about_eko_hotel), R.drawable.ic_eko_hotel));
         tourCategories.add(new TourCategory(getString(R.string.oriental_hotel), getString(R.string.about_oriental_hotel), R.drawable.ic_oriental_hotel));
         tourCategories.add(new TourCategory(getString(R.string.de_rembrandt_hotel), getString(R.string.about_de_rembrandt_hotel), R.drawable.ic_de_rembrandt_hotels));
         tourCategories.add(new TourCategory(getString(R.string.ibis_hotel), getString(R.string.about_ibis_hotel), R.drawable.ic_ibis_hotel));

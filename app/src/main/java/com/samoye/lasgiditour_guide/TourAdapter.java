@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
@@ -39,7 +40,14 @@ public class TourAdapter extends ArrayAdapter<TourCategory> {
         TextView textCategoryTextView = (TextView) ListItemView.findViewById(R.id.tour_category_text_text_view);
         textCategoryTextView.setText(currentTourCategoryCategory.getText());
 
-        //set the theme for the list item
+        // Find the ImageView in the list_item.xml layout with the ID image.
+        ImageView imageView = (ImageView) ListItemView.findViewById(R.id.image);
+
+        // Set the ImageView to the image resource specified in the current Word
+        imageView.setImageResource(currentTourCategoryCategory.getImageResourceId());
+
+
+            //set the theme for the list item
         View textContainer = ListItemView.findViewById(R.id.text_container);
 
         // find the color that resource id maps to
@@ -48,6 +56,6 @@ public class TourAdapter extends ArrayAdapter<TourCategory> {
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
 
-        return super.getView(position, convertView, parent);
+        return ListItemView;
     }
 }

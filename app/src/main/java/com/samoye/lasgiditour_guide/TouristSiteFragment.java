@@ -36,15 +36,15 @@ public class TouristSiteFragment extends Fragment {
         // Create a list of tours
         final ArrayList<TourCategory> tourCategories = new ArrayList<TourCategory>();
 
-        tourCategories.add(new TourCategory(getString(R.string.eko_hotel), getString(R.string.about_eko_hotel), R.drawable.ic_eko_hotel));
-        tourCategories.add(new TourCategory(getString(R.string.oriental_hotel), getString(R.string.about_oriental_hotel), R.drawable.ic_oriental_hotel));
-        tourCategories.add(new TourCategory(getString(R.string.de_rembrandt_hotel), getString(R.string.about_de_rembrandt_hotel), R.drawable.ic_de_rembrandt_hotels));
-        tourCategories.add(new TourCategory(getString(R.string.ibis_hotel), getString(R.string.about_ibis_hotel), R.drawable.ic_ibis_hotel));
-        tourCategories.add(new TourCategory(getString(R.string.rollace_hotel), getString(R.string.about_rollace_hotel), R.drawable.ic_rollace_hotels));
+        tourCategories.add(new TourCategory(getString(R.string.lekki_converse_center), getString(R.string.about_lekki_converse_center),  R.drawable.ic_lekki_conversation_center));
+        tourCategories.add(new TourCategory(getString(R.string.tafawa_balewa_square), getString(R.string.about_tafawa_balewa_square), R.drawable.ic_tafawa_balewa_square));
+        tourCategories.add(new TourCategory(getString(R.string.national_museum), getString(R.string.about_national_museum), R.drawable.ic_national_museum));
+        tourCategories.add(new TourCategory(getString(R.string.hi_imact_planet), getString(R.string.about_hi_impact_planet), R.drawable.ic_hi_impact_park));
+        tourCategories.add(new TourCategory(getString(R.string.freedom_park), getString(R.string.about_freedom_park), R.drawable.ic_freedom_park));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        TourAdapter adapter = new TourAdapter(getActivity(), tourCategories, R.color.tour_category_hotel);
+        TourAdapter adapter = new TourAdapter(getActivity(), tourCategories, R.color.tour_category_tourist_sites);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

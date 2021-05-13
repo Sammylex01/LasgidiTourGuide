@@ -6,6 +6,7 @@
 
     <string name="bar_title">Lasgidi Tour Guide</string>
 
+    <!-- List of Hotels -->
     <string name="eko_hotel">Eko Hotel</string>
     <string name="about_eko_hotel">The Most Preferred Hotel in West Africa Eko Hotels and Suites is the most preferred hotel in West Africa,
         and it is all about the right mix! Located in the heart of Victoria Island we offer our clients a perfect blend of business and
@@ -47,4 +48,47 @@
         to the last detail. We welcome you to stay at Rollace Hotel Lagos and experience our unsurpassed service and warm, homely atmosphere for yourself. </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- List of Tourist Attraction Sites -->
+    <string name="lekki_converse_center">Lekki Conservation Centre</string>
+    <string name="about_lekki_converse_center">A popularly acclaimed urban nature park rich in landscape, greenery, and wildlife,
+         it is excellent for recreational activities. Located along Lekki-Epe Expressway and Okun Ibeju Village, Lekki Peninsula.</string>
+
+    <string name="tafawa_balewa_square">Tafawa Balewa Square</string>
+    <string name="about_tafawa_balewa_square">This is a ceremonial ground with a prestigious history and significant monuments (including
+        memorials to victims of the world wars). With a 50,000 sitting capacity, Tafawa Balewa Square—popularly known as
+        TBS or Race Course—hosts some of the biggest concerts and events in the city. Located in Lagos Island.</string>
+
+    <string name="national_museum">Nigerian National Museum</string>
+    <string name="about_national_museum">The Nigerian National Museum is a good place to see ancient distinguished Nigerian archaeological and ethnographic artworks.
+        Located at Onikan in Lagos Island.</string>
+
+    <string name="hi_imact_planet">Hi Impact Planet</string>
+    <string name="about_hi_impact_planet">This amusement park lives up to its name. Its recreational facility offers fun and excitement all year round! However, its actual
+        situation is on the outskirts of Lagos, within Ogun State territory. Located along Lagos-Ibadan Expressway.</string>
+
+    <string name="freedom_park">Freedom Park</string>
+    <string name="about_freedom_park">Lagos’ proud culture and heritage preservation site, and a favored location for the exhibition and expression of the creative arts.
+        Located on Hospital Road in Lagos Island.</string>
+
+    <!-- Info's About Lagos -->
+
+    <string name="lagos">About Lagos</string>
+    <string name="about_lagos">Lagos (Nigerian English: /ˈleɪɡɒs/;[9] Yoruba: Èkó) is the most populous city in Nigeria and the second-largest city in Africa after
+        Kinshasa, DRC, having a population of 14.8million as of 2021 within the city proper. The Lagos metropolitan area has a total population of 21.3 million, making it the
+        second-largest metropolitan area in Africa, after Cairo. [10][11] Lagos is a major African financial centre and is the economic hub of Lagos State and Nigeria at large.
+        The megacity has the fourth-highest GDP in Africa[12][2] and houses one of the largest and busiest seaports on the continent. [13][14][15] It is one of the fastest growing cities in the world.[23]</string>
+
+    <string name="lagos_climate">Lagos Climate</string>
+    <string name="about_lagos_climate">Lagos experiences a tropical savanna climate (Aw) according to the Köppen climate classification,
+    as there are four months under 60 millimetres or 2.4 inches of rain, and annual rainfall
+    is not nearly high enough for tropical monsoon classification. The wet season starts in
+    April and ends in October, while the dry season starts in November and ends in March.
+    The wettest month is June with precipitation total 315.5 millimetres or 12.42 inches, while the driest month is
+    January with precipitation total 13.2 millimetres or 0.52 inches. Located near the equator, Lagos has only
+    a slight seasonal temperature variation, with mean high temperatures ranging from 28.3 to 32.9 °C (82.9 to 91.2 °F).
+    Lagos shares the seasons of the Southern Hemisphere, with highest temperatures in March with a daily range from 32.9 to 24.1 °C (91.2 to 75.4 °F),
+    and least hot temperatures in August ranging from 28.3 to 21.8 °C (82.9 to 71.2 °F).></string>
+
+
 </resources>

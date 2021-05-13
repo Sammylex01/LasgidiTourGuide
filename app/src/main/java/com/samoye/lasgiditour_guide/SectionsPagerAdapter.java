@@ -18,23 +18,6 @@ public class SectionsPagerAdapter extends FragmentStateAdapter {
         super(fragmentActivity);
     }
 
-
-//    public SectionsPagerAdapter(Context context, Fragment fm) {
-//        super(fm);
-//        mContext = context;
-//    }
-
-//    @Override
-//    public CharSequence getPageTitle(int position) {
-//        if (position == 0) {
-//            return mContext.getString(R.string.best_hotels);
-//        } else if (position == 1) {
-//            return mContext.getString(R.string.tourist_sites);
-//        } else {
-//            return mContext.getString(R.string.about_lag);
-//        }
-//    }
-
     /**
      * Return the {@link Fragment} that should be displayed for the given page number.
      */
