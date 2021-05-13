@@ -28,7 +28,7 @@ public class SectionsPagerAdapter extends FragmentStateAdapter {
             return new BestHotelsFragment();
         } else if (position == 1) {
             return new TouristSiteFragment();
-        } else if (position == 2)  {
+        } else if (position == 2) {
             return new StadiumsFragment();
         } else  {
             return new AboutLagosFragment();

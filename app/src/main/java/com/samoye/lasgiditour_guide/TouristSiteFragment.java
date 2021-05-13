@@ -14,7 +14,6 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- *
  */
 public class TouristSiteFragment extends Fragment {
 
@@ -36,7 +35,7 @@ public class TouristSiteFragment extends Fragment {
         // Create a list of tours
         final ArrayList<TourCategory> tourCategories = new ArrayList<TourCategory>();
 
-        tourCategories.add(new TourCategory(getString(R.string.lekki_converse_center), getString(R.string.about_lekki_converse_center),  R.drawable.ic_lekki_conversation_center));
+        tourCategories.add(new TourCategory(getString(R.string.lekki_converse_center), getString(R.string.about_lekki_converse_center), R.drawable.ic_lekki_conversation_center));
         tourCategories.add(new TourCategory(getString(R.string.tafawa_balewa_square), getString(R.string.about_tafawa_balewa_square), R.drawable.ic_tafawa_balewa_square));
         tourCategories.add(new TourCategory(getString(R.string.national_museum), getString(R.string.about_national_museum), R.drawable.ic_national_museum));
         tourCategories.add(new TourCategory(getString(R.string.hi_imact_planet), getString(R.string.about_hi_impact_planet), R.drawable.ic_hi_impact_park));
@@ -59,9 +58,6 @@ public class TouristSiteFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
-                // Get the {@link Word} object at the given position the user clicked on
-                TourCategory tourCategory = tourCategories.get(position);
 
             }
         });

@@ -17,7 +17,7 @@ public class TourAdapter extends ArrayAdapter<TourCategory> {
     //resource id for background color for this list of word
     private int mColorResourceId;
 
-    public TourAdapter(Activity context, ArrayList<TourCategory> tourCategories, int colorResourceId){
+    public TourAdapter(Activity context, ArrayList<TourCategory> tourCategories, int colorResourceId) {
         super(context, 0, tourCategories);
         mColorResourceId = colorResourceId;
     }
@@ -27,27 +27,26 @@ public class TourAdapter extends ArrayAdapter<TourCategory> {
 
         // check the existing view group is being reused, other wise inflate the view
         View ListItemView = convertView;
-        if(ListItemView == null){
-            ListItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+        if (ListItemView == null) {
+            ListItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
 
         }
         //get the{@link word} object located at this position in the list
         TourCategory currentTourCategoryCategory = getItem(position);
 
-        TextView titleCategoryTextView = (TextView) ListItemView.findViewById(R.id.tour_category_title_text_view);
-        titleCategoryTextView.setText(currentTourCategoryCategory.getTitle());
+        TextView attractionDescriptionTV = (TextView) ListItemView.findViewById(R.id.tour_category_title_text_view);
+        attractionDescriptionTV.setText(currentTourCategoryCategory.getTitle());
 
         TextView textCategoryTextView = (TextView) ListItemView.findViewById(R.id.tour_category_text_text_view);
         textCategoryTextView.setText(currentTourCategoryCategory.getText());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
-        ImageView imageView = (ImageView) ListItemView.findViewById(R.id.image);
+        ImageView attractionImageView = (ImageView) ListItemView.findViewById(R.id.image);
 
         // Set the ImageView to the image resource specified in the current Word
-        imageView.setImageResource(currentTourCategoryCategory.getImageResourceId());
+        attractionImageView.setImageResource(currentTourCategoryCategory.getImageResourceId());
 
-
-            //set the theme for the list item
+        //set the theme for the list item
         View textContainer = ListItemView.findViewById(R.id.text_container);
 
         // find the color that resource id maps to

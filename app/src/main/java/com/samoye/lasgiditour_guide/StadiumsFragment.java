@@ -14,7 +14,6 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- *
  */
 public class StadiumsFragment extends Fragment {
 
@@ -58,9 +57,6 @@ public class StadiumsFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
-                // Get the {@link Word} object at the given position the user clicked on
-                TourCategory tourCategory = tourCategories.get(position);
 
             }
         });
