@@ -3,6 +3,7 @@
     <string name="best_hotels">Best Hotels</string>
     <string name="tourist_sites">Tourist Sites</string>
     <string name="about_lag">About Lagos</string>
+    <string name="stadiums">Stadiums in Lagos</string>
 
     <string name="bar_title">Lasgidi Tour Guide</string>
 
@@ -91,4 +92,20 @@
     and least hot temperatures in August ranging from 28.3 to 21.8 °C (82.9 to 71.2 °F).></string>
 
 
+    <!-- Lagos Stadiums -->
+    <string name="national_stadium">National Stadium</string>
+    <string name="about_national_stadium">The Lagos National Stadium is a multi-purpose stadium in Surulere, Lagos State, Nigeria,
+        which comprises an Olympic-size swimming arena and a multipurpose arena used for athletics, rugby, basketball, volleyball, table tennis, wrestling and boxing matches. It was used mostly for football matches until 2004</string>
+
+    <string name="teslim_stadium">Teslim Balogun Stadium</string>
+    <string name="about_teslim_stadium">The Teslim Balogun Stadium is a multi-use stadium in Surulere, Lagos, Nigeria, It is used
+        mostly for football matches and serves as a home ground of First Bank FC, The Nigeria national rugby league team also use the venue</string>
+
+    <string name="onikan_stadium">Onikan Stadium</string>
+    <string name="about_onikan_stadium">The Mobolaji Johnson Arena is a multi-purpose stadium in Lagos, It is currently used for
+        football matches and it is the home stadium of various Lagos teams, most notably Ikorodu United FC, Stationery Stores FC, First Bank and Julius Berger FC</string>
+
+    <string name="agege_stadium">Agege Stadium</string>
+    <string name="about_agege_stadium">Agege Stadium is a multi-purpose stadium in Lagos, Nigeria, It has a seating capacity of 4,000
+        It is the home ground of MFM FC, Nigeria women national under-17 football team and since 2018, of DreamStar FC Ladies</string>
 </resources>

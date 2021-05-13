@@ -40,6 +40,8 @@ public class MainActivity extends FragmentActivity {
                         tab.setText(getString(R.string.best_hotels));
                     } else if (position == 1) {
                         tab.setText(getString(R.string.tourist_sites));
+                    } else if (position == 2) {
+                        tab.setText(getString(R.string.stadiums));
                     } else {
                         tab.setText(getString(R.string.about_lag));
                     }

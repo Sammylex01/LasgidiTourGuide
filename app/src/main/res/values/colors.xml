@@ -14,5 +14,8 @@
 
     <color name="tour_category_tourist_sites">#FD8E09</color>
 
+    <color name="tour_category_stadiums">#ffcccb</color>
+
     <color name="tour_category_about_lagos">#379237</color>
+
 </resources>
